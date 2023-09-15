@@ -1,0 +1,63 @@
+.awardsCtn{
+  width: 100%;
+  padding: 100px 10px;
+}
+
+.awardsWrp{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.award-logos{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  gap: 5px;
+}
+
+.award-logos li{
+  width: 100%;
+  max-width: 130px;
+  background-color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.award-logos img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.foundersWrp{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  gap: 5px;
+}
+
+.founder{
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.founder .info{
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.founder p{
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+
+.founder img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}

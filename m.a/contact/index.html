@@ -13,7 +13,7 @@
         <img src="../images/logo.png" alt="logo">
       </div>
   
-      <div class="menu">
+      <div class="menu"  id="newMenu">
         <a href="/m.a/">HOME</a>
         <a href="/m.a/about">ABOUT</a>
         <a href="/m.a/areas">AREAS</a>
@@ -22,6 +22,9 @@
         <a href="/m.a/blogs">BLOGS</a>
         <a href="/m.a/contact">CONTACT</a>
       </div>
+
+
+      <img class="hamburger" src="../images/hamburger.png" alt="hamburger" onclick="toggleMenu()">
     </nav>
   </div>
 
@@ -31,6 +34,38 @@
       <h1 class="heroTitle">Contact Us</h1>
     </div>
   </div>
+
+  <div class='formCtn'>
+    <form class='form'>
+      <h1>Send Message!</h1>
+
+      <div class='inputWrp'>
+        <label htmlFor="fullName">Full Name</label>
+        <input type='text' name="fullName" id='fullName'/>
+      </div>
+
+      <div class='inputWrp'>
+        <label htmlFor="email">Email</label>
+        <input type='email' name="email" id='email'/>
+      </div>
+
+        <div class='inputWrp'>
+          <label htmlFor="phoneNumber">Phone Number</label>
+          <input type="text" name="phoneNumber" id="phoneNumber"/>
+        </div>
+
+      <div class='inputWrp'>
+        <label htmlFor="message">Message</label>
+        <textarea name="message" id="message" rows="5"></textarea>
+      </div>
+
+      <!-- <p class='formError res'></p>
+      <p class='formSuccess res'></p> -->
+      <button class='bigBtn'>Send Message</button>
+    </form>
+  </div>
   
+
 </body>
+<script src="../script.js"></script>
 </html>
